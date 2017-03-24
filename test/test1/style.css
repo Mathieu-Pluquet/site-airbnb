@@ -1,0 +1,31 @@
+aside {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+section {
+  height: 100px;
+  background-color: blue;
+}
+
+@media (min-width:768px) {
+  aside {
+    width: 30%;
+  }
+
+  section {
+    width: 68%;
+  }
+
+  body {
+    width: 100%;
+    display:flex;
+  }
+}
+
+@media (min-width:1024px) {
+  body {
+    flex-direction: row-reverse;
+  }
+}
