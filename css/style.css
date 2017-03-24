@@ -24,15 +24,20 @@
 /*header*/
 
 h1 {
-  font-size: 25px;
+  font-size: 28px;
   padding-bottom: 50px;
   margin-left: 25px;
   margin-top: 30px;
+  font-family: inherit !important;
+  color: #484848 !important;
+  font-weight: 200 !important;
 }
 
 h2 {
   width: 95%;
   padding-top: 50px;
+  font-size: 19px;
+  padding-bottom: 20px;
 }
 span {
   color: red;
@@ -53,6 +58,8 @@ span {
   border: 1px solid lightgrey;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px lightgrey;
 
 }
 
@@ -89,7 +96,7 @@ span {
   width: 303px;
 }
 
-.sec1:nth-child(3), .sec2:nth-child(3), .sec3:nth-child(3)  {
+.sec1:nth-child(3), .sec2:nth-child(3), .sec3:nth-child(3), nav, .navhead  {
   display: none;
 }
 
@@ -128,17 +135,38 @@ span {
 button {
   width: 180px;
   height: 35px;
-  background-color: green;
+  background-color:#008489;
   color: white;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 50px;
 }
 
 .taille4 {
   margin-left: 20px;
 }
-.navhead {
-  display: none;
+
+/*footer */
+
+footer {
+  border-top: 1px solid lightgrey;
+  padding-top: 20px;
 }
 
+select {
+  height: 55px;
+  width: 300px;
+}
+
+.sect4 {
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+hr {
+  width: 88%;
+  margin: auto;
+}
 .logo2, .partout {
 display: inline-flex;
 }
@@ -155,6 +183,6 @@ img {
   height: 15em;
 }
 
-section, .fig1 {
+section, .fig1, .form1 {
   display: flex;
 }
