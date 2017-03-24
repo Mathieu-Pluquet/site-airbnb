@@ -21,11 +21,18 @@
   height: 16px;
   padding: 10px;
 }
+
+/*flex*/
+
+section, .fig1, .form1 {
+  display: flex;
+}
+
 /*header*/
 
 h1 {
   font-size: 28px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   margin-left: 25px;
   margin-top: 30px;
   font-family: inherit !important;
@@ -53,13 +60,15 @@ span {
 /*barre de recherche */
 
 .barresearch2 {
-  width: 619px;
+  width: 680px;
   height: 58px;
   border: 1px solid lightgrey;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
   box-shadow: 1px 1px lightgrey;
+  width: 90%;
+  margin: auto;
 
 }
 
@@ -89,11 +98,21 @@ span {
 .sect1, .sect2, .sect3 {
   justify-content: space-around;
   flex-wrap: wrap;
+
+
 }
 
 .sect1 img, .sect2 img, .sect3 img  {
-  height: 455px;
-  width: 303px;
+  height: auto;
+   width:260%;
+}
+
+figure {
+  width: 40%;
+}
+
+.sec1, .sec2, .sec3 {
+  width: 40%;
 }
 
 .sec1:nth-child(3), .sec2:nth-child(3), .sec3:nth-child(3), nav, .navhead  {
@@ -107,29 +126,45 @@ span {
 
 
 .taille1 img{
-  width: 470px;
-  height: 270px;
+  height: auto;
+  width: 250%;
+}
+
+.taille1 {
+  width: 70%;
 }
 
 .taille2 img {
-  height: 300px;
-  width: 200px;
+  height: auto;
+  width: 230%;
 }
 
+.taille2 {
+  width: 30%;
+}
 .taille3 img {
-  width: 100%;
-  height: 350px;
+  width:100%;
+  height:auto;
   padding-bottom: 20px;
   padding-top: 50px;
 }
 
+.taille3 {
+  width: 100%;
+}
+.fig2 {
+  width: 100%;
+}
 .p1 {
   font-size: 25px;
   font-weight: bold;
+  color: black;
+  width: 80%;
 }
 
 .p2 {
   font-size: 19px;
+  width: 80%;
 }
 
 button {
@@ -144,6 +179,7 @@ button {
 
 .taille4 {
   margin-left: 20px;
+
 }
 
 /*footer */
@@ -167,22 +203,25 @@ hr {
   width: 88%;
   margin: auto;
 }
-.logo2, .partout {
-display: inline-flex;
+
+i {
+  margin-left: 10px;
 }
 
-.test {
-  border: 1px solid lightgrey;
+.sect5 {
+  margin-bottom: 30px;
+}
+
+p {
+  color:grey;
+  width: 150px;
+}
+
+.condi {
+  width: 100%;
+}
+
+.art1 {
   width: 90%;
   margin: auto;
-  height: 3em;
-}
-
-
-img {
-  height: 15em;
-}
-
-section, .fig1, .form1 {
-  display: flex;
 }
