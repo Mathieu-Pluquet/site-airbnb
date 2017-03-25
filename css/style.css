@@ -47,7 +47,8 @@ h2 {
   padding-bottom: 20px;
 }
 span {
-  color: red;
+  color:#FF5A5F ;
+  font-weight: bold;
 }
 
 .header1 {
@@ -267,7 +268,7 @@ p {
     flex-direction: column;
     justify-content: center;
     height: 80px;
-    width: 350px;
+    width: 375px;
     border-radius: 3px;
     box-shadow: 1px 1px lightgrey;
   }
@@ -339,6 +340,41 @@ a {
 
 #p5 {
   color: black;
-  font-weight: bold;
+  font-weight:
 }
+
+
+
+}
+
+
+/*responsive desktop 1024 px */
+
+@media (min-width:1024px) {
+
+h1 {
+  width: 12em;
+}
+
+.sec1:nth-child(4), .sec2:nth-child(4), .sec3:nth-child(4), .taille1:nth-child(2), .taille2:nth-child(5), .taille2:nth-child(4) {
+  display: block;
+}
+
+.sec1, .sec2, .sec3 {
+width: 22%
+}
+
+.taille1 {
+  width: 30%;
+}
+
+.taille2 {
+  width: 15%;
+}
+
+.divpapa {
+  width: 80%;
+  margin: auto;
+}
+
 }
