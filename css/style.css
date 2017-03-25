@@ -1,9 +1,12 @@
+/*reset css*/
+
 * {
   margin: 0;
   padding: 0;
 }
 
 /*logo */
+
 .fig1 {
   height: 60px;
   width: 90px;
@@ -37,7 +40,6 @@ h1 {
   font-family: inherit !important;
   color: #484848 !important;
   font-weight: 200 !important;
-
 }
 
 h2 {
@@ -46,6 +48,7 @@ h2 {
   font-size: 19px;
   padding-bottom: 20px;
 }
+
 span {
   color:#FF5A5F ;
   font-weight: bold;
@@ -56,7 +59,6 @@ span {
   display: inline-flex;
   width: 5em;
 }
-
 
 /*barre de recherche */
 
@@ -70,7 +72,6 @@ span {
   box-shadow: 1px 1px lightgrey;
   width: 90%;
   margin: auto;
-
 }
 
 .sec0 {
@@ -78,6 +79,7 @@ span {
   justify-content: center;
   width: 100%;
 }
+
 .loupe {
   align-items: flex-end;
 
@@ -93,8 +95,7 @@ span {
   display: none;
 }
 
-
-/*produit */
+/*sections */
 
 .sect1, .sect2, .sect3 {
   justify-content: space-around;
@@ -113,7 +114,7 @@ figure {
 .sec1, .sec2, .sec3 {
   width: 40%;
 }
-
+/*elements non pris */
 .sec1:nth-child(3), .sec2:nth-child(3), .sec3:nth-child(3), nav, .navhead  {
   display: none;
 }
@@ -123,14 +124,11 @@ figure {
   display: none;
 }
 
+/*taille images */
 
 .taille1 img{
   height: auto;
   width: 250%;
-}
-
-.taille1 {
-  width: 70%;
 }
 
 .taille2 img {
@@ -138,9 +136,6 @@ figure {
   width: 230%;
 }
 
-.taille2 {
-  width: 30%;
-}
 .taille3 img {
   width:100%;
   height:auto;
@@ -148,16 +143,34 @@ figure {
   padding-top: 50px;
 }
 
+/*taille section */
+
+.taille1 {
+  width: 70%;
+}
+
+.taille2 {
+  width: 30%;
+}
+
 .taille3 {
   width: 100%;
+}
+
+.taille4 {
+  margin-left: 20px;
 }
 
 .sect6 {
   flex-wrap: wrap;
 }
+
 .fig2 {
   width: 100%;
 }
+
+/*reglage police */
+
 .p1 {
   font-size: 25px;
   font-weight: bold;
@@ -170,6 +183,8 @@ figure {
   width: 80%;
 }
 
+/*reglage boutton */
+
 .button2 {
   width: 180px;
   height: 35px;
@@ -178,11 +193,6 @@ figure {
   border-radius: 5px;
   border: 0;
   margin-bottom: 50px;
-}
-
-.taille4 {
-  margin-left: 20px;
-
 }
 
 /*footer */
@@ -231,47 +241,49 @@ p {
 /*responsive tablette 768 px */
 
 @media (min-width:768px) {
-  .navhead, nav {
-    display: block;
-  }
+.navhead, nav {
+  display: block;
+}
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .li1{
-    list-style-type: none;
-    margin-left: 20px;
-    padding-right: 20px;
-  }
+.li1{
+  list-style-type: none;
+  margin-left: 20px;
+  padding-right: 20px;
+}
 
-  h1 {
-    font-size: 48px;
-  }
+h1 {
+  font-size: 48px;
+}
 
-  .chevron, .barresearch2 {
-    display: none;
-  }
+.chevron, .barresearch2 {
+  display: none;
+}
 
-  .barresearch {
-    display: block;
-    display: flex;
-    width: 90%;
-    margin: auto;
-  }
+/*barre de recherche */
 
-  .bar1 {
-    border: 1px solid lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 80px;
-    width: 375px;
-    border-radius: 3px;
-    box-shadow: 1px 1px lightgrey;
-  }
+.barresearch {
+  display: block;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.bar1 {
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  width: 375px;
+  border-radius: 3px;
+  box-shadow: 1px 1px lightgrey;
+}
 
 .inp1 {
   border: 0;
@@ -284,13 +296,17 @@ p {
   width: 70%;
 }
 
+/*element a reprendre */
+
 .sec1:nth-child(3), .sec2:nth-child(3), .sec3:nth-child(3), .taille1:nth-child(3), .taille2:nth-child(6) {
   display: block;
 }
 
 .sec1, .sec2, .sec3 {
-width: 30%
+  width: 30%
 }
+
+/*reglage section */
 
 .taille1 {
   width: 45%;
@@ -305,7 +321,6 @@ width: 30%
   justify-content: center;
   vertical-align: middle;
   align-items: center;
-
 }
 
 .fig2, .taille3{
@@ -343,10 +358,7 @@ a {
   font-weight:
 }
 
-
-
 }
-
 
 /*responsive desktop 1024 px */
 
@@ -356,12 +368,16 @@ h1 {
   width: 12em;
 }
 
+/*element a reprendre */
+
 .sec1:nth-child(4), .sec2:nth-child(4), .sec3:nth-child(4), .taille1:nth-child(2), .taille2:nth-child(5), .taille2:nth-child(4) {
   display: block;
 }
 
+/*taille section */
+
 .sec1, .sec2, .sec3 {
-width: 22%
+  width: 22%
 }
 
 .taille1 {
