@@ -15,8 +15,8 @@
 }
 
 .logo {
-  height: 26px;
-  width: 26px;
+  height: 25px;
+  width: 25px;
 }
 
 .chevron {
@@ -91,12 +91,6 @@ span {
   font-size: 19px;
 }
 
-/*elements non pris*/
-
-.barresearch, #condi2 {
-  display: none;
-}
-
 /*sections */
 
 .sect1, .sect2, .sect3 {
@@ -117,12 +111,16 @@ figure {
   width: 40%;
 }
 /*elements non pris */
-.sec1:nth-child(3), .sec2:nth-child(3), .sec3:nth-child(3), nav, .navhead  {
+.sec1:nth-child(3), .sec2:nth-child(3), .sec3:nth-child(3),nav, .navhead  {
   display: none;
 }
 
 .sec1:nth-child(4), .sec2:nth-child(4), .sec3:nth-child(4), .taille1:nth-child(3),
 .taille1:nth-child(2), .taille2:nth-child(6), .taille2:nth-child(5), .taille2:nth-child(4) {
+  display: none;
+}
+
+.barresearch, #condi2 {
   display: none;
 }
 
@@ -277,7 +275,7 @@ h1 {
   font-size: 48px;
 }
 
-.chevron, .barresearch2 {
+.barresearch2 {
   display: none;
 }
 
