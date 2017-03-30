@@ -163,6 +163,7 @@ figure {
 
 .sect6 {
   flex-wrap: wrap;
+
 }
 
 .fig2 {
@@ -482,6 +483,10 @@ h1 {
 .pls2 {
   display: flex;
   flex-direction: column;
+}
+
+.sect6 {
+    flex-direction: row-reverse;
 }
 
 
