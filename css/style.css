@@ -91,6 +91,33 @@ span {
   font-size: 19px;
 }
 
+.button3 {
+  height: 48px;
+  width: auto;
+  background-color: #FF5A5F;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 50px;
+
+}
+
+.button4 {
+  height: 48px;
+  width: auto;
+  background-color: #FF5A5F;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 50px;
+
+}
+
+
+.select1 {
+  width: 50px;
+  height: 35px;
+}
 /*sections */
 
 .sect1, .sect2, .sect3 {
@@ -268,6 +295,9 @@ hr {
   display: block;
 }
 
+.button3 {
+  display: none;
+}
 header {
   display: flex;
   align-items: center;
@@ -313,15 +343,33 @@ h1 {
   box-shadow: 1px 1px lightgrey;
 }
 
+.bar2 {
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 80px;
+  width: 375px;
+  border-radius: 3px;
+  box-shadow: 1px 1px lightgrey;
+}
 .inp1 {
   border: 0;
   width: 90%;
   margin: auto;
   font-size: 19px;
+
+}
+
+#inp2 {
+  width: 130px;
+  margin-left: 10px;
 }
 
 .select1 {
   width: 70%;
+  width: 130px;
 }
 
 /*element a reprendre */
@@ -488,6 +536,11 @@ h1 {
 .sect6 {
     flex-direction: row-reverse;
 }
-
+.button4 {
+  display: none;
+}
+.button3 {
+  display: block;
+}
 
 }
