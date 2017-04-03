@@ -2,11 +2,13 @@
  https://mathieu-pluquet.github.io/site-airbnb/
  
  -version mobile:
+ 
  Barre de recherche simple
  3 thèmes avec 2 images, 2 thèmes avec une image et un thème avec 3 images.
  un formulaire et un footer
  
  -version tablette:
+ 
  menu 
  barre de recherche diviser en 3 parties: où, quand, voyageur avec un bouton loupe.
  3 thèmes avec 3 images, un thème avec quatre images et 2 images et une seule image.
