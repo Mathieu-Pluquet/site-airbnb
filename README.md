@@ -1,6 +1,8 @@
 # site-airbnb
  https://mathieu-pluquet.github.io/site-airbnb/
+ 
  version mobile :
+ 
  - Barre de recherche simple
  - 3 thèmes avec 2 images, 2 thèmes avec une image et un thème avec 3 images.
  - un formulaire et un footer
@@ -18,8 +20,8 @@
  - un formulaire et des listes et un footer.
  
  Couleurs:
- -#FF5A5F: icone, H1 span, bouton recherche
- -#008489: bouton estimer mes revenus
+ - #FF5A5F: icone, H1 span, bouton recherche
+ - #008489: bouton estimer mes revenus
  
  Typographie:
  
